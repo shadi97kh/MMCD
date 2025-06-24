@@ -30,5 +30,5 @@ For how to run MMCD, we present an example based on the AMP dataset, which could
 2. Training for diffusion model with the AMP dataset
 
 ```
-span
+python train.py --batch_size 64 --n_max_epochs 500 --n_timestep 1000 --out_checkpoint_dir data/output/MMCD
 ```
