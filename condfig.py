@@ -15,10 +15,10 @@ def setting_init():
     parser.add_argument('--gpus', default=0,
                         help='gpus for train.')
 
-    parser.add_argument('--n_max_epochs', default=500,
+    parser.add_argument('--n_max_epochs',type=int, default=500,
                         help='max_epochs for train.')
 
-    parser.add_argument('--batch_size', default=256,
+    parser.add_argument('--batch_size', type=int, default=256,
                         help='batch_sizes for train.')
 
     parser.add_argument('--n_timestep',type=int,default=1000,help='number of diffusion timesteps')
