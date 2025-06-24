@@ -18,11 +18,10 @@ def setting_init():
     parser.add_argument('--n_max_epochs', default=500,
                         help='max_epochs for train.')
 
-    parser.add_argument('--batch_sizes', default=256,
+    parser.add_argument('--batch_size', default=256,
                         help='batch_sizes for train.')
 
-    parser.add_argument('--n_timestep', default=1000,
-                        help='n_timestep for diffusion model.')
+    parser.add_argument('--n_timestep',type=int,default=1000,help='number of diffusion timesteps')
 
     parser.add_argument('--beta_schedule', default='linear',
                         help='beta_schedule for diffusion model.')
