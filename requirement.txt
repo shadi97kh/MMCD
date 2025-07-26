@@ -1,8 +1,14 @@
-numpy == 1.23.1
-torch == 1.12.0
-torch-geometric == 2.0.1
-pytorch-lightning == 1.9.2
-pytorch-metric-learning == 2.1.0
-modlamp == 4.3.0
-biopython == 1.81
-peptidebuilder == 1.1.0
+numpy==1.23.1
+torch==2.0.1
+torchvision==0.15.2
+torchaudio==2.0.2
+torch-geometric==2.3.1
+torch-scatter
+torch-sparse
+torch-cluster
+torch-spline-conv
+pytorch-lightning==1.9.5  # Latest 1.9.x version
+pytorch-metric-learning==2.1.0
+modlamp==4.3.0
+biopython==1.81
+peptidebuilder==1.1.0
